@@ -59,8 +59,8 @@ function HeaderComponent(props) {
                 </div>
                 <div className={css(styles.separator)}></div>
                 <Row vertical="center">
-                    <span className={css(styles.name, styles.cursorPointer)}>Germán Llorente</span>
-                    <img src="https://avatars3.githubusercontent.com/u/21162888?s=460&v=4" alt="avatar" className={css(styles.avatar, styles.cursorPointer)} />
+                    <span className={css(styles.name, styles.cursorPointer)}>Mastan Patel</span>
+                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGHdQ0rzQmW8w/profile-displayphoto-shrink_100_100/0/1593942112552?e=1642636800&v=beta&t=exVBCkpaHSHPnbyo3RqV8x__xRX0tki4ZefCaw3idtk" alt="avatar" className={css(styles.avatar, styles.cursorPointer)} />
                 </Row>
             </Row>
         </Row>

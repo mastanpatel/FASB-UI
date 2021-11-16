@@ -10,7 +10,7 @@ import IconIdeas from '../../assets/icons/icon-ideas.js';
 // import IconAgents from '../../assets/icons/icon-agents';
  import IconArticles from '../../assets/icons/icon-articles';
  import IconSettings from '../../assets/icons/icon-settings';
-// import IconSubscription from '../../assets/icons/icon-subscription';
+ import IconSubscription from '../../assets/icons/icon-subscription';
 
 const styles = StyleSheet.create({
     container: {
@@ -65,10 +65,10 @@ function SidebarComponent(props) {
                     title="Settings" icon={IconSettings}
                     onClick={() => props.onChange('Settings')}
                     active={props.selectedItem === 'Settings'} /> */}
-                {/* <MenuItemComponent
-                    title="Subscription" icon={IconSubscription}
-                    onClick={() => props.onChange('Subscription')}
-                    active={props.selectedItem === 'Subscription'} /> */}
+                <MenuItemComponent
+                    title="About" icon={IconSubscription}
+                    onClick={() => props.onChange('About')}
+                    active={props.selectedItem === 'About'} />
             </Column>
         </Column>
     );
