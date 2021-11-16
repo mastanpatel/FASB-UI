@@ -4,7 +4,7 @@ import { StyleSheet, css } from 'aphrodite';
 import LogoComponent from './LogoComponent';
 import MenuItemComponent from './MenuItemComponent';
 import IconOverview from '../../assets/icons/icon-overview.js';
-import IconTickets from '../../assets/icons/icon-tickets.js';
+//import IconTickets from '../../assets/icons/icon-tickets.js';
 import IconIdeas from '../../assets/icons/icon-ideas.js';
 //import IconContacts from '../../assets/icons/icon-contacts';
 // import IconAgents from '../../assets/icons/icon-agents';
@@ -36,13 +36,13 @@ function SidebarComponent(props) {
             <Column className={css(styles.menuItemList)}>
                 <MenuItemComponent
                     title="Manage Quarter" icon={IconOverview}
-                    onClick={() => props.onChange('ManageQuarter')}
-                    active={props.selectedItem === 'ManageQuarter'}
+                    onClick={() => props.onChange('Manage Quarter')}
+                    active={props.selectedItem === 'Manage Quarter'}
                 />
                 <MenuItemComponent
                     title="Input Wizard" icon={IconSettings}
-                    onClick={() => props.onChange('InputWizard')}
-                    active={props.selectedItem === 'InputWizard'}
+                    onClick={() => props.onChange('Input Wizard')}
+                    active={props.selectedItem === 'Input Wizard'}
                 />
                 <MenuItemComponent
                     title="Dashboard" icon={IconIdeas}

@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 
 class App extends React.Component {
 
-    state = { selectedItem: 'Tickets' };
+    state = { selectedItem: 'Manage Quarter' };
 
     render() {
         const { selectedItem } = this.state;
